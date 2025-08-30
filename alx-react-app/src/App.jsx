@@ -3,7 +3,10 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-// Import your new component
+// Import your new components
+import Header from './components/Header'
+import MainContent from './components/MainContent'
+import Footer from './components/Footer'
 import WelcomeMessage from './components/WelcomeMessage'
 
 function App() {
@@ -11,7 +14,11 @@ function App() {
 
   return (
     <>
-      {/* Use the WelcomeMessage component here */}
+      {/* Use the components here */}
+      <Header />
+      <MainContent />
+      <Footer />
+
       <WelcomeMessage />
 
       <div>
@@ -39,5 +46,6 @@ function App() {
 }
 
 export default App
+
 
 
