@@ -3,11 +3,17 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+// Import your new component
+import WelcomeMessage from './components/WelcomeMessage'
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      {/* Use the WelcomeMessage component here */}
+      <WelcomeMessage />
+
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -33,3 +39,5 @@ function App() {
 }
 
 export default App
+
+
