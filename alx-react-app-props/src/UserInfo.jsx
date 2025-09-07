@@ -1,13 +1,9 @@
 import UserDetails from "./UserDetails";
 
 function UserInfo() {
-  return (
-    <div>
-      <h3>User Info</h3>
-      <UserDetails />
-    </div>
-  );
+  return <UserDetails />;
 }
 
 export default UserInfo;
+
 
