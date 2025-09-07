@@ -1,10 +1,14 @@
 function Header() {
   return (
-    <header style={{ backgroundColor: "#282c34", padding: "20px", color: "white" }}>
-      <h1 style={{ fontSize: "24px" }}>Welcome to My App</h1>
+    <header style={{ backgroundColor: "navy", color: "white", textAlign: "center", padding: "20px" }}>
+      <h1>My Favorite Cities</h1>
     </header>
   );
 }
+
+export default Header;
+
+
 
 
 
