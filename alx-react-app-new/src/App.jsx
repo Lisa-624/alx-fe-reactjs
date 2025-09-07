@@ -2,13 +2,14 @@ import Header from "./components/Header";
 import UserProfile from "./components/UserProfile";
 import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
+import Counter from "./components/Counter"; // ⬅️ new import
 
 function App() {
   return (
     <div style={{ fontFamily: "Arial, sans-serif", backgroundColor: "#fafafa" }}>
       <Header />
       <MainContent />
-      
+
       {/* Example user profiles */}
       <UserProfile 
         name="Lisa Michaels" 
@@ -20,13 +21,17 @@ function App() {
         age={30} 
         bio="Software engineer by day, adventurer by night. Loves hiking and photography." 
       />
-      
+
+      {/* Counter Component */}
+      <Counter />
+
       <Footer />
     </div>
   );
 }
 
 export default App;
+
 
 
 
